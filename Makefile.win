@@ -4,8 +4,8 @@
 CPP      = g++.exe
 CC       = gcc.exe
 WINDRES  = windres.exe
-OBJ      = 数据结构/栈/括号匹配问题.o
-LINKOBJ  = 数据结构/栈/括号匹配问题.o
+OBJ      = "7\ 递归与分治/7.1\ 递归/汉诺塔Ⅲ.o"
+LINKOBJ  = "7 递归与分治/7.1 递归/汉诺塔Ⅲ.o"
 LIBS     = -L"D:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"D:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc
 INCS     = -I"D:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"D:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
 CXXINCS  = -I"D:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"D:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
@@ -24,5 +24,5 @@ clean: clean-custom
 $(BIN): $(OBJ)
 	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
 
-数据结构/栈/括号匹配问题.o: 数据结构/栈/括号匹配问题.cpp
-	$(CPP) -c 数据结构/栈/括号匹配问题.cpp -o 数据结构/栈/括号匹配问题.o $(CXXFLAGS)
+"7\ 递归与分治/7.1\ 递归/汉诺塔Ⅲ.o": 7\ 递归与分治/7.1\ 递归/汉诺塔Ⅲ.cpp
+	$(CPP) -c "7 递归与分治/7.1 递归/汉诺塔Ⅲ.cpp" -o "7 递归与分治/7.1 递归/汉诺塔Ⅲ.o" $(CXXFLAGS)

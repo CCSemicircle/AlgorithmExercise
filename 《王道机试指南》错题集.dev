@@ -54,7 +54,7 @@ SyncProduct=1
 FileName=暴力求解\模拟\手机键盘.cpp
 
 [Unit1]
-FileName=数学问题\进制转换\进制转换2.cpp
+FileName=6 贪心\6.2 区间贪心\CaseOfFugitive.cpp
 CompileCpp=1
 Folder=
 Compile=1

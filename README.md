@@ -86,9 +86,9 @@
 | [进制转换2](https://www.nowcoder.com/practice/ae4b3c4a968745618d65b866002bbd32?tpId=60&tqId=31034&tPage=2&ru=/kaoyan/retest/1001&qru=/ta/tsing-kaoyan/question-ranking) | ⭐⭐       | 1.非大整数进制转换，但是超过10进制，存在字母表示 |
 
 ## 5.2 最大公约数与最小公倍数
-| 题目       | 错题次数 | 要点                      |
-| ---------- | -------- | ------------------------- |
-| 最简真分数 | ⭐        | 1.欧几里得算法/辗转相除法 |
+| 题目                                                         | 错题次数 | 要点                      |
+| ------------------------------------------------------------ | -------- | ------------------------- |
+| [最简真分数](https://www.nowcoder.com/practice/1f1db273eeb745c6ac83e91ff14d2ec9?tpId=61&tqId=29507&tPage=1&ru=%2Fkaoyan%2Fretest%2F1002&qru=%2Fta%2Fpku-kaoyan%2Fquestion-ranking) | ⭐        | 1.欧几里得算法/辗转相除法 |
 
 ## 5.3 质数
 
@@ -105,6 +105,71 @@
 | [整除问题](https://www.nowcoder.com/practice/8e29045de1c84d349b43fdb123ab586a?tpId=62&tqId=29462&tPage=1&ru=/kaoyan/retest/2002&qru=/ta/sju-kaoyan/question-ranking) | ⭐⭐       | 1.本质是求a^k 与 n! 两者质因子的倍数关系 |
 
 ## 5.5 快速幂
+
+| 题目                                                         | 错题次数 | 要点                                                         |
+| ------------------------------------------------------------ | -------- | ------------------------------------------------------------ |
+| [人见人爱的A^B](http://acm.hdu.edu.cn/showproblem.php?pid=2035) | ⭐⭐       | 1.标准快速幂                                                 |
+| [求root(N, k)](https://www.nowcoder.com/practice/9324a1458c564c4b9c4bfc3867a2aa66?tpId=60&tqId=29488&tPage=1&ru=/kaoyan/retest/1001&qru=/ta/tsing-kaoyan/question-ranking) | ⭐⭐       | 1.快速幂<br />2.数学推导求最终的结果的简单表达式（等价式）<br />3.注意两式相减求解 |
+
+## 5.6 矩阵与矩阵快速幂
+
+| 题目                                                         | 错题次数 | 要点                                     |
+| ------------------------------------------------------------ | -------- | ---------------------------------------- |
+| [计算两个矩阵的乘积](https://www.nowcoder.com/practice/ed6552d03e624ba58d16af6d57e1c3e9?tpId=40&tqId=21502&tPage=9&rp=9&ru=/ta/kaoyan&qru=/ta/kaoyan/question-ranking) | ⭐        | 1.矩阵乘法法则                           |
+| [矩阵幂](https://www.nowcoder.com/practice/31e539ab08f949a8bece2a7503e9319a?tpId=67&tqId=29638&tPage=1&ru=/kaoyan/retest/1005&qru=/ta/bupt-kaoyan/question-ranking) | ⭐        | 1.矩阵快速幂<br />2.注意初始化为单位矩阵 |
+
+## 5.7 高精度整数
+
+- 大整数模板见文件BigInteger.cpp。
+
+# 6 贪心
+
+## 6.1 简单贪心
+
+| 题目                                                         | 错题次数 | 要点                                                         |
+| ------------------------------------------------------------ | -------- | ------------------------------------------------------------ |
+| [代理服务器](https://www.nowcoder.com/practice/1284469ee94a4762848816a42281a9e0?tpId=60&tqId=29476&tPage=1&ru=/kaoyan/retest/1001&qru=/ta/tsing-kaoyan/question-ranking) | ⭐⭐       | 1.同一起点出发法，求每次能达到的最远距离<br />2.每次能达到的最远距离为0时代表无法前进 |
+
+## 6.2 区间贪心
+
+| 题目                                                         | 错题次数 | 要点                                                         |
+| ------------------------------------------------------------ | -------- | ------------------------------------------------------------ |
+| [今年暑假不AC](http://acm.hdu.edu.cn/showproblem.php?pid=2037) | ⭐⭐       | 1.每次找到结束时间最早的节目                                 |
+| [Case of Fugitive](http://codeforces.com/problemset/problem/555/B) | ⭐⭐       | 1.用区间去匹配桥，每次尽量找到最匹配桥大小的区间，即在所有满足 minimum <= length <= maximum 的区间中找到maximum最小的区间 |
+| [To Fill or Not to Fill](https://www.nowcoder.com/practice/f7eba38f7cd24c45982831e0f38518f9?tpId=63&tqId=29602&tPage=2&ru=/kaoyan/retest/9001&qru=/ta/zju-kaoyan/question-ranking) | ⭐⭐       | 1.每次求下一站为油价最便宜的一站，没有则在当前站加满，或者除非可以加油至达到终点<br />2.注意两种特殊情况，是否可以达到最近的下一站以及是否可以到达终点，可以设置终点为最后一站统一判断 |
+
+# 7 递归与分治
+
+## 7.1 递归
+
+- 递归的要点在于不关注具体的过程，只关注母问题与子问题的数学关系。
+
+| 题目                                                         | 错题次数 | 要点                                                         |
+| ------------------------------------------------------------ | -------- | ------------------------------------------------------------ |
+| [汉诺塔Ⅲ](http://acm.hdu.edu.cn/showproblem.php?pid=2064)    | ⭐⭐       | 1.考虑将最大圆盘从第一根杆移动到第三根杆即可得到如下递归关系 |
+| [杨辉三角形](https://www.nowcoder.com/practice/ef7f264886a14fdf8a6ed3ac008a23c8?tpId=40&tqId=21535&tPage=1&rp=1&ru=/ta/kaoyan&qru=/ta/kaoyan/question-ranking) | ⭐        | 1.找规律即可<br />2.如果用空间换时间，注意数组不要开太大     |
+| [全排列](https://www.nowcoder.com/practice/5632c23d0d654aecbc9315d1720421c1?tpId=61&tqId=29515&tPage=1&ru=/kaoyan/retest/1002&qru=/ta/pku-kaoyan/question-ranking) | ⭐        | 1.先确定前半段，再通过遍历后半段往前半段加字符               |
+
+## 7.2 分治
+
+- **分治法的步骤如下**：
+
+1. **分**：将问题分解为规模更小的子问题
+2. **治**：将这些规模更小的子问题逐个击破
+3. **合**：将已解决的子问题合并，并最终得出母问题的解
+
+- **分治与递归的联系与区别**：
+
+1. 两者都体现了将问题分解成更小子问题的思想；
+2. 递归强调的是可以从子问题逐步推出母问题；
+3. 分治强调的是母问题是由多个子问题合并之后解决。
+
+| 题目                                                         | 错题次数 | 要点                                       |
+| ------------------------------------------------------------ | -------- | ------------------------------------------ |
+| [二叉树](https://www.nowcoder.com/practice/f74c7506538b44399f2849eba2f050b5?tpId=61&tqId=29557&tPage=3&ru=/kaoyan/retest/1002&qru=/ta/pku-kaoyan/question-ranking) | ⭐        | 1.找到子节点和父节点的关系然后分治递归即可 |
+| [2的幂次方](https://www.nowcoder.com/practice/7cf7b0706d7e4b439481f53e5fdac6e7?tpId=62&tqId=29460&tPage=1&ru=/kaoyan/retest/2002&qru=/ta/sju-kaoyan/question-ranking) | ⭐        | 1.找到规律，递归表示                       |
+
+# 9 搜索
 
 
 
