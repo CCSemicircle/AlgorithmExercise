@@ -75,6 +75,10 @@
 | [括号匹配问题](http://ccnu.openjudge.cn/practice/1978/)      | ⭐        | 1.涉及标记不匹配的括号，初始时全设置为空格，且入栈的为下标以方便处理，如果仅仅是判断是否匹配则可以直接入栈符号 |
 | [简单计算器](https://www.nowcoder.com/practice/5759c29a28cb4361bc3605979d5a6130?tpId=63&tqId=29576&tPage=1&ru=/kaoyan/retest/9001&qru=/ta/zju-kaoyan/question-ranking) | ⭐⭐       | 1.堆栈分别存储运算符和运算数<br />2.用最低级符号初始入栈以便所有运算符入栈，用次低级的符号加在字符串末尾表示运算结束 |
 
+## 4.4 二叉树
+
+
+
 # 5 数学问题
 
 ## 5.1 进制转换
@@ -169,14 +173,46 @@
 | [二叉树](https://www.nowcoder.com/practice/f74c7506538b44399f2849eba2f050b5?tpId=61&tqId=29557&tPage=3&ru=/kaoyan/retest/1002&qru=/ta/pku-kaoyan/question-ranking) | ⭐        | 1.找到子节点和父节点的关系然后分治递归即可 |
 | [2的幂次方](https://www.nowcoder.com/practice/7cf7b0706d7e4b439481f53e5fdac6e7?tpId=62&tqId=29460&tPage=1&ru=/kaoyan/retest/2002&qru=/ta/sju-kaoyan/question-ranking) | ⭐        | 1.找到规律，递归表示                       |
 
-# 9 搜索
+# 8 搜索
 
+## 8.1 宽度优先搜索
 
+- **BFS方法**：关键是找到状态表示，建立Status结构体，利用优先队列遍历合法状态。
+- **BFS的特点**：状态，状态扩展方式，有效状态，队列，标记，有效状态数，最优。
 
-# 10. 图论
+| 题目                                                         | 错题次数 | 要点                                                         |
+| ------------------------------------------------------------ | -------- | ------------------------------------------------------------ |
+| [Catch That Cow](http://poj.org/problem?id=3278)             | ⭐⭐       | 1.BFS模板题                                                  |
+| [Find The Multiple](http://poj.org/problem?id=1426)          | ⭐⭐       | 1.注意找规律减少遍历防止超时                                 |
+| [玛雅人的密码](https://www.nowcoder.com/practice/761fc1e2f03742c2aa929c19ba96dbb0?tpId=60&tqId=29484&tPage=1&ru=/kaoyan/retest/1001&qru=/ta/tsing-kaoyan/question-ranking) | ⭐⭐       | 1.通过提前预判断来排除没有结果的情况<br />2.使用map结构判断已经出现的字符串 |
+
+## 8.2 深度优先搜索
+
+- **DFS方法**：
+
+1. 关键是找到正确的状态表示（三元组等）
+2. 最外层循环列举在该层的所有状态
+3. 利用递归，判断每一条状态分支是否可行
+4. 注意使用标记减少遍历
+5. 要注意递归层次不过多，避免”爆栈“。
+
+- **剪枝**：通过放弃对某些不可能产生结果的子集的搜索，达到提高效率的目的。
+
+- **标记**：先标记为true，DFS的结果不符合再重新设置为false，有点类似于试错法
+
+- **DFS与BFS**：DFS强调问题是否有解，BFS注重找到最优解
+
+| 题目                                                         | 错题次数 | 要点                                                         |
+| ------------------------------------------------------------ | -------- | ------------------------------------------------------------ |
+| [A Knights's Journey](http://poj.org/problem?id=2488)        | ⭐⭐       | 1.使用scanf避免输入太多超时<br />2.每次遍历下一层状态时，先将下一层状态用字典序排列，以保证结果是最小字典序 |
+| [Square](http://poj.org/problem?id=2362)                     | ⭐⭐       | 1.注意找到正确的状态表示（三元组）<br />2.注意使用剪枝，特别是去除上一个已经判断出不能产生结果的长度的棍子<br />3.注意确定递归调用DFS时传入的下一个状态<br />4.注意标记的设置，先设置为true，结果不符合再设置为false，类似于试错法<br />5.注意将棍子长度排序，以方便确定下一个状态 |
+| [神奇的口袋](https://www.nowcoder.com/practice/9aaea0b82623466a8b29a9f1a00b5d35?tpId=61&tqId=29531&tPage=2&ru=/kaoyan/retest/1002&qru=/ta/pku-kaoyan/question-ranking) | ⭐        | 1.注意找出正确的状态表示，不能往前重复计数                   |
+| [八皇后](https://www.nowcoder.com/practice/fbf428ecb0574236a2a0295e1fa854cb?tpId=61&tqId=29558&tPage=3&ru=/kaoyan/retest/1002&qru=/ta/pku-kaoyan/question-ranking) | ⭐⭐       | 1.注意最外层循环列举在该层的所有状态<br />2.同一层确定一个状态后，递归调用DFS确定之后的位置，即可确定该状态下的所有解<br />3.通过上述两个方法，即可遍历所有的解<br />4.通过循环判断是否符合条件，可以在循环前设置flag布尔变量，表意更清楚<br />5.主对角线上x-y相同，副对角线上x+y相同，原理是斜率分别为1和-1 |
+
+# 9. 图论
 
 1. [二叉树的最大路径和](https://www.nowcoder.com/questionTerminal/da785ea0f64b442488c125b441a4ba4a)（2021中南大学大数据组机试原题），错题次数：⭐
 
-# 11. 动态规划
+# 10. 动态规划
 
 1. [最长递增子序列](https://www.nowcoder.com/questionTerminal/30fb9b3cab9742ecae9acda1c75bf927)（2021中南大学大数据组机试原题），错题次数：⭐
