@@ -1,8 +1,50 @@
-# 机试错题集
+# 机试准备材料
 
-本人一些刷题时遇到的错题，以及解题要点，代码文件为题解。
+- 主要是本人一些刷题时遇到的错题，以及解题要点，代码文件为题解。
+- 补充材料里是刷题时总结的知识点，最好是全都熟记。
+- 每个类型挑选出了一个经典的板子题，板子题随时更新。
+- **每次机试前的准备**：
+  - （1）刷一遍板子题练手
+  - （2）看一下所有错题的要点
+  - （3）过一遍补充材料的知识
 
-# 1. 暴力求解
+# 0 板子题
+
+| 分类       | 标签                   | 题目                                                         | 错题次数 |
+| ---------- | ---------------------- | ------------------------------------------------------------ | -------- |
+| 暴力求解   | 枚举                   | [百鸡问题](https://www.nowcoder.com/practice/01d161052db64c249a47fc723b4fd5db?tpId=40&tqId=21487&tPage=1&rp=1&ru=/ta/kaoyan&qru=/ta/kaoyan/question-ranking) | ⭐⭐       |
+|            | 模拟                   | [Repeater](https://www.nowcoder.com/practice/97fd3a67eff4455ea3f4d179d6467de9?tpId=40&tqId=21389&tPage=1&rp=1&ru=/ta/kaoyan&qru=/ta/kaoyan/question-ranking) | ⭐⭐       |
+|            | 模拟                   | [Day of Week](https://www.nowcoder.com/practice/a3417270d1c0421587a60b93cdacbca0?tpId=40&tqId=21439&tPage=1&rp=1&ru=/ta/kaoyan&qru=/ta/kaoyan/question-ranking) | ⭐⭐       |
+|            | 模拟                   | [路径打印](https://www.nowcoder.com/practice/64b472c9bed247b586859978d13145ad?tpId=62&tqId=29457&tPage=1&ru=/kaoyan/retest/2002&qru=/ta/sju-kaoyan/question-ranking) | ⭐⭐       |
+| 排序与查找 | 排序                   | [奥运排序问题](https://www.nowcoder.com/practice/100a4376cafc439b86f5f8791fb461f3?tpId=63&tqId=29564&tPage=1&ru=/kaoyan/retest/9001&qru=/ta/zju-kaoyan/question-ranking) | ⭐⭐       |
+|            | 查找                   | [找位置](https://www.nowcoder.com/practice/e3b2cc44aa9b4851bdca89dd79c53150?tpId=40&tqId=21560&tPage=1&rp=1&ru=/ta/kaoyan&qru=/ta/kaoyan/question-ranking) | ⭐⭐       |
+| 字符串     | 字符串处理             | [浮点数加法](https://www.nowcoder.com/practice/ddec753f446e4ba4944e35378ba635c8?tpId=61&tqId=29551&tPage=3&ru=/kaoyan/retest/1002&qru=/ta/pku-kaoyan/question-ranking) | ⭐⭐       |
+|            | 字符串匹配             | [String Matching](https://www.nowcoder.com/practice/00438b0bc9384ceeb65613346b42e88a?tpId=62&tqId=29448&tPage=1&rp=1&ru=/ta/sju-kaoyan) | ⭐⭐       |
+|            | 字符串匹配             | [字符串匹配](https://www.nowcoder.com/practice/fbdc522ef958455687654b38a4ca01e0?tpId=66&tqId=29633&tPage=1&ru=/kaoyan/retest/1004&qru=/ta/buaa-kaoyan/question-ranking) | ⭐⭐       |
+| 数据结构   | 向量                   |                                                              |          |
+|            | 队列                   | [约瑟夫问题NO.2](http://bailian.openjudge.cn/practice/3254)  | ⭐        |
+|            | 栈                     | [简单计算器](https://www.nowcoder.com/practice/5759c29a28cb4361bc3605979d5a6130?tpId=63&tqId=29576&tPage=1&ru=/kaoyan/retest/9001&qru=/ta/zju-kaoyan/question-ranking) | ⭐⭐       |
+|            | 二叉树                 | [二叉树遍历](https://www.nowcoder.com/practice/4b91205483694f449f94c179883c1fef?tpId=60&tqId=29483&tPage=1&ru=/kaoyan/retest/1001&qru=/ta/tsing-kaoyan/question-ranking) | ⭐⭐       |
+|            | 二叉排序树             | [二叉搜索树](https://www.nowcoder.com/practice/3d6dd9a58d5246f29f71683346bb8f1b?tpId=63&tqId=29571&tPage=1&ru=/kaoyan/retest/9001&qru=/ta/zju-kaoyan/question-ranking) | ⭐        |
+|            | 优先队列               | [哈夫曼树](https://www.nowcoder.com/practice/162753046d5f47c7aac01a5b2fcda155?tpId=67&tqId=29635&tPage=1&ru=/kaoyan/retest/1005&qru=/ta/bupt-kaoyan/question-ranking) | ⭐⭐       |
+|            | 散列表                 | [开门人和关门人](https://www.nowcoder.com/practice/a4b37b53a44d454ab0834e1517983215?tpId=63&tqId=29587&tPage=2&ru=%2Fkaoyan%2Fretest%2F9001&qru=%2Fta%2Fzju-kaoyan%2Fquestion-ranking) | ⭐        |
+| 数学问题   | 进制转换               | [进制转换2](https://www.nowcoder.com/practice/ae4b3c4a968745618d65b866002bbd32?tpId=60&tqId=31034&tPage=2&ru=/kaoyan/retest/1001&qru=/ta/tsing-kaoyan/question-ranking) | ⭐⭐       |
+|            | 进制转换               | [10进制 VS 2进制](https://www.nowcoder.com/practice/fd972d5d5cf04dd4bb4e5f027d4fc11e?tpId=60&tqId=29498&tPage=2&ru=/kaoyan/retest/1001&qru=/ta/tsing-kaoyan/question-ranking) | ⭐⭐       |
+|            | 最大公约数与最小公倍数 | [最简真分数](https://www.nowcoder.com/practice/1f1db273eeb745c6ac83e91ff14d2ec9?tpId=61&tqId=29507&tPage=1&ru=%2Fkaoyan%2Fretest%2F1002&qru=%2Fta%2Fpku-kaoyan%2Fquestion-ranking) | ⭐        |
+|            | 质数                   | [Prime Number](https://www.nowcoder.com/practice/c5f8688cea8a4a9a88edbd67d1358415?tpId=62&tqId=29467&tPage=1&ru=/kaoyan/retest/2002&qru=/ta/sju-kaoyan/question-ranking) | ⭐⭐       |
+|            | 分解质因数             | [整除问题](https://www.nowcoder.com/practice/8e29045de1c84d349b43fdb123ab586a?tpId=62&tqId=29462&tPage=1&ru=/kaoyan/retest/2002&qru=/ta/sju-kaoyan/question-ranking) | ⭐⭐       |
+|            | 快速幂                 | [求root(N, k)](https://www.nowcoder.com/practice/9324a1458c564c4b9c4bfc3867a2aa66?tpId=60&tqId=29488&tPage=1&ru=/kaoyan/retest/1001&qru=/ta/tsing-kaoyan/question-ranking) | ⭐⭐       |
+|            | 矩阵与矩阵快速幂       | [矩阵幂](https://www.nowcoder.com/practice/31e539ab08f949a8bece2a7503e9319a?tpId=67&tqId=29638&tPage=1&ru=/kaoyan/retest/1005&qru=/ta/bupt-kaoyan/question-ranking) | ⭐        |
+|            | 高精度整数             |                                                              |          |
+| 贪心       | 简单贪心               | [代理服务器](https://www.nowcoder.com/practice/1284469ee94a4762848816a42281a9e0?tpId=60&tqId=29476&tPage=1&ru=/kaoyan/retest/1001&qru=/ta/tsing-kaoyan/question-ranking) | ⭐⭐       |
+|            | 区间贪心               | [To Fill or Not to Fill](https://www.nowcoder.com/practice/f7eba38f7cd24c45982831e0f38518f9?tpId=63&tqId=29602&tPage=2&ru=/kaoyan/retest/9001&qru=/ta/zju-kaoyan/question-ranking) | ⭐⭐       |
+| 递归与分治 | 递归                   | [汉诺塔Ⅲ](http://acm.hdu.edu.cn/showproblem.php?pid=2064)    | ⭐⭐       |
+|            | 分治                   | [2的幂次方](https://www.nowcoder.com/practice/7cf7b0706d7e4b439481f53e5fdac6e7?tpId=62&tqId=29460&tPage=1&ru=/kaoyan/retest/2002&qru=/ta/sju-kaoyan/question-ranking) | ⭐        |
+| 搜索       | 宽度优先搜索           | [玛雅人的密码](https://www.nowcoder.com/practice/761fc1e2f03742c2aa929c19ba96dbb0?tpId=60&tqId=29484&tPage=1&ru=/kaoyan/retest/1001&qru=/ta/tsing-kaoyan/question-ranking) | ⭐⭐       |
+|            | 深度优先搜索           | [Square](http://poj.org/problem?id=2362)                     | ⭐⭐       |
+|            | 深度优先搜索           | [八皇后](https://www.nowcoder.com/practice/fbf428ecb0574236a2a0295e1fa854cb?tpId=61&tqId=29558&tPage=3&ru=/kaoyan/retest/1002&qru=/ta/pku-kaoyan/question-ranking) | ⭐⭐       |
+
+# 1 暴力求解
 
 ## 1.1 枚举
 
@@ -23,7 +65,7 @@
 | [路径打印](https://www.nowcoder.com/practice/64b472c9bed247b586859978d13145ad?tpId=62&tqId=29457&tPage=1&ru=/kaoyan/retest/2002&qru=/ta/sju-kaoyan/question-ranking) | ⭐⭐       | 1.将字符串拆分为列表<br />2.注意父路径初始的空格数以及后续空格数的变化 |
 | [坠落的蚂蚁](https://www.nowcoder.com/practice/fdd6698014c340178a8b1f28ea5fadf8?tpId=40&tqId=21420&tPage=1&rp=1&ru=/ta/kaoyan&qru=/ta/kaoyan/question-ranking) | ⭐        | 1.找规律，简化题目                                           |
 
-# 2. 排序与查找
+# 2 排序与查找
 
 ## 2.1 排序
 
@@ -77,6 +119,59 @@
 
 ## 4.4 二叉树
 
+**二叉树的遍历方法**：前序遍历（NLR）、中序遍历（LNR）、后序遍历（LRN）、层次遍历
+
+| 题目                                                         | 错题次数 | 要点                                   |
+| ------------------------------------------------------------ | -------- | -------------------------------------- |
+| [二叉树遍历](https://www.nowcoder.com/practice/4b91205483694f449f94c179883c1fef?tpId=60&tqId=29483&tPage=1&ru=/kaoyan/retest/1001&qru=/ta/tsing-kaoyan/question-ranking) | ⭐⭐       | 1.输入为前序遍历则利用前序遍历方法建树 |
+
+## 4.5 二叉排序树
+
+二叉排序树也称二叉搜索树，如果对二叉排序树进行中序遍历，结果一定是升序序列。
+
+| 题目                                                         | 错题次数 | 要点                                                         |
+| ------------------------------------------------------------ | -------- | ------------------------------------------------------------ |
+| [二叉排序树](https://www.nowcoder.com/practice/30a0153649304645935c949df7599602?tpId=69&tqId=29654&tPage=1&ru=/kaoyan/retest/11002&qru=/ta/hust-kaoyan/question-ranking) | ⭐        | 1.注意插入的时候传入额外信息以达到目的<br />2.内存超限可能因为是尝试获取空指针指向的值 |
+| [二叉搜索树](https://www.nowcoder.com/practice/3d6dd9a58d5246f29f71683346bb8f1b?tpId=63&tqId=29571&tPage=1&ru=/kaoyan/retest/9001&qru=/ta/zju-kaoyan/question-ranking) | ⭐        | 1. 相同元素的二叉搜索树的中序遍历一定相同，而前序+中序可以确定一棵二叉树，因而使用前序遍历即可判断二叉搜索树是否相同 |
+
+## 4.6 优先队列
+
+在STL中，优先队列使用priority_queue实现。
+
+**优先队列的应用：**
+
+1. 顺序问题
+2. 哈夫曼树（**带权路径长度和最小的二叉树**）：
+
+带权路径长度：从根节点到该结点的路径长度 * 该结点的权值。
+
+①将所有结点放入集合K
+
+②若集合K中的剩余结点数大于1，取出其中权值最小的两个结点，将他们合并成新的结点后，将新结点放入集合K
+
+③若集合中仅剩余一个结点，则该结点为根节点
+
+④构造过程中，**所有中间结点的权值和**，即为哈夫曼树的带权路径和
+
+| 题目                                                         | 错题次数 | 要点                                                         |
+| ------------------------------------------------------------ | -------- | ------------------------------------------------------------ |
+| [哈夫曼树](https://www.nowcoder.com/practice/162753046d5f47c7aac01a5b2fcda155?tpId=67&tqId=29635&tPage=1&ru=/kaoyan/retest/1005&qru=/ta/bupt-kaoyan/question-ranking) | ⭐⭐       | 1.注意最后的判断条件为剩余一个元素<br />2.注意使用小顶堆的优先队列 |
+| [查找第K小的数](https://www.nowcoder.com/practice/204dfa6fcbc8478f993d23f693189ffd?tpId=67&tqId=29637&tPage=1&ru=%2Fkaoyan%2Fretest%2F1005&qru=%2Fta%2Fbupt-kaoyan%2Fquestion-ranking) | ⭐        | 1.注意更新存储上一个值的变量                                 |
+
+## 4.7 散列表
+
+**STL-map**：
+
+1. map的底层使用红黑树实现，内部仍然是有序的，其查找效率仍然为O(lg n)，只不过按照其设计意义，理论效率应当为O(1)。
+
+2. map和unordered_map的操作几乎一样，但是当题目对性能要求特别高时，需要将map改为unordered_map。
+
+| 题目                                                         | 错题次数 | 要点                                                         |
+| ------------------------------------------------------------ | -------- | ------------------------------------------------------------ |
+| [查找学生信息](https://www.nowcoder.com/practice/fe8bff0750c8448081759f3ee0d86bb4?tpId=60&tqId=29499&tPage=2&ru=/kaoyan/retest/1001&qru=/ta/tsing-kaoyan/question-ranking) | ⭐        | 1.注意key不存在时，map的返回值                               |
+| [子串计算](https://www.nowcoder.com/practice/bcad754c91a54994be31a239996e7c11?tpId=61&tqId=29540&tPage=2&ru=%2Fkaoyan%2Fretest%2F1002&qru=%2Fta%2Fpku-kaoyan%2Fquestion-ranking) | ⭐        | 1.统计子串时不要遗漏，按顺序查找子串                         |
+| [开门人和关门人](https://www.nowcoder.com/practice/a4b37b53a44d454ab0834e1517983215?tpId=63&tqId=29587&tPage=2&ru=%2Fkaoyan%2Fretest%2F9001&qru=%2Fta%2Fzju-kaoyan%2Fquestion-ranking) | ⭐        | 1.当两个序列的取值范围有交叉，且需要分别求最大与最小时，必须使用两个map，使用一个map会导致错判 |
+
 
 
 # 5 数学问题
@@ -90,6 +185,11 @@
 | [进制转换2](https://www.nowcoder.com/practice/ae4b3c4a968745618d65b866002bbd32?tpId=60&tqId=31034&tPage=2&ru=/kaoyan/retest/1001&qru=/ta/tsing-kaoyan/question-ranking) | ⭐⭐       | 1.非大整数进制转换，但是超过10进制，存在字母表示 |
 
 ## 5.2 最大公约数与最小公倍数
+
+**欧几里得算法**：原理是(a, b)与(b, a%b)的最大公约数相等。
+
+**最大公倍数**：a*b / a与b的最大公约数
+
 | 题目                                                         | 错题次数 | 要点                      |
 | ------------------------------------------------------------ | -------- | ------------------------- |
 | [最简真分数](https://www.nowcoder.com/practice/1f1db273eeb745c6ac83e91ff14d2ec9?tpId=61&tqId=29507&tPage=1&ru=%2Fkaoyan%2Fretest%2F1002&qru=%2Fta%2Fpku-kaoyan%2Fquestion-ranking) | ⭐        | 1.欧几里得算法/辗转相除法 |
