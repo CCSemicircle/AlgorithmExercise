@@ -1,12 +1,18 @@
 # 机试准备材料
 
 - 主要是本人一些刷题时遇到的错题，以及解题要点，代码文件为题解。
+
 - 补充材料里是刷题时总结的知识点，最好是全都熟记。
+
 - 每个类型挑选出了一个经典的板子题，板子题随时更新。
+
 - **每次机试前的准备**：
-  - （1）刷一遍板子题练手
-  - （2）看一下所有错题的要点
-  - （3）过一遍补充材料的知识
+
+  （1）刷一遍板子题练手
+
+  （2）看一下所有错题的要点
+
+  （3）过一遍补充材料的知识
 
 # 0 板子题
 
@@ -43,6 +49,10 @@
 | 搜索       | 宽度优先搜索           | [玛雅人的密码](https://www.nowcoder.com/practice/761fc1e2f03742c2aa929c19ba96dbb0?tpId=60&tqId=29484&tPage=1&ru=/kaoyan/retest/1001&qru=/ta/tsing-kaoyan/question-ranking) | ⭐⭐       |
 |            | 深度优先搜索           | [Square](http://poj.org/problem?id=2362)                     | ⭐⭐       |
 |            | 深度优先搜索           | [八皇后](https://www.nowcoder.com/practice/fbf428ecb0574236a2a0295e1fa854cb?tpId=61&tqId=29558&tPage=3&ru=/kaoyan/retest/1002&qru=/ta/pku-kaoyan/question-ranking) | ⭐⭐       |
+| 图论       | 并查集                 | [找到直系亲属](https://www.nowcoder.com/practice/2c958d09d29f46798696f15ae7c9703b?tpId=63&tqId=29569&tPage=1&ru=/kaoyan/retest/9001&qru=/ta/zju-kaoyan/question-ranking) | ⭐        |
+|            | 最小生成树             | [还是畅通工程](https://www.nowcoder.com/practice/d6bd75dbb36e410995f8673a6a2e2229?tpId=63&tqId=29595&tPage=2&ru=/kaoyan/retest/9001&qru=/ta/zju-kaoyan/question-ranking) | ⭐        |
+|            | 最短路径               | [I Wanna Go Home](https://www.nowcoder.com/practice/0160bab3ce5d4ae0bb99dc605601e971?tpId=61&tqId=29500&tPage=1&ru=/kaoyan/retest/1002&qru=/ta/pku-kaoyan/question-ranking) | ⭐⭐       |
+|            | 最短路径               | [最短路径](https://www.nowcoder.com/practice/a29d0b5eb46b4b90bfa22aa98cf5ff17?tpId=62&tqId=29464&tPage=1&rp=1&ru=/ta/sju-kaoyan) | ⭐⭐       |
 
 # 1 暴力求解
 
@@ -310,6 +320,45 @@
 | [八皇后](https://www.nowcoder.com/practice/fbf428ecb0574236a2a0295e1fa854cb?tpId=61&tqId=29558&tPage=3&ru=/kaoyan/retest/1002&qru=/ta/pku-kaoyan/question-ranking) | ⭐⭐       | 1.注意最外层循环列举在该层的所有状态<br />2.同一层确定一个状态后，递归调用DFS确定之后的位置，即可确定该状态下的所有解<br />3.通过上述两个方法，即可遍历所有的解<br />4.通过循环判断是否符合条件，可以在循环前设置flag布尔变量，表意更清楚<br />5.主对角线上x-y相同，副对角线上x+y相同，原理是斜率分别为1和-1 |
 
 # 9. 图论
+
+## 9.1  并查集
+
+| 题目                                                         | 错题次数 | 要点                                                         |
+| ------------------------------------------------------------ | -------- | ------------------------------------------------------------ |
+| [畅通工程](https://www.nowcoder.com/practice/4878e6c6a24e443aac5211d194cf3913?tpId=63&tqId=29573&tPage=1&ru=%2Fkaoyan%2Fretest%2F9001&qru=%2Fta%2Fzju-kaoyan%2Fquestion-ranking) | ⭐        | 1.并查集模板题，求连通分量                                   |
+| [Is It A Tree?](https://www.nowcoder.com/practice/1c5fd2e69e534cdcaba17083a5c56335?tpId=61&tqId=29506&tPage=1&ru=/kaoyan/retest/1002&qru=/ta/pku-kaoyan/question-ranking) | ⭐        | 1.注意考虑多种特殊情况：不连续的结点编号、空树               |
+| [找到直系亲属](https://www.nowcoder.com/practice/2c958d09d29f46798696f15ae7c9703b?tpId=63&tqId=29569&tPage=1&ru=/kaoyan/retest/9001&qru=/ta/zju-kaoyan/question-ranking) | ⭐        | 1.类似并查集的思路建关系树<br />2.注意高度的更新公式         |
+| [第一题](https://www.nowcoder.com/practice/7c29cdfa28274c86afc9e88c07448a10?tpId=62&tqId=31040&tPage=2&ru=/kaoyan/retest/2002&qru=/ta/sju-kaoyan/question-ranking) | ⭐        | 1.注意根结点的父结点设置，并对应修改Find函数<br />2.如果根结点的父结点设置为常数，注意Find函数不同情况返回值不同 |
+
+## 9.2 最小生成树
+
+在带权无向连通图中，所有生成树边权和最小的树，称为该无向图的最小生成树。
+
+- **Kruskal算法步骤**
+
+1. 初始时所有顶点属于孤立的集合。
+2. 按照边权递增顺序遍历所有的边，若遍历到的边的两个顶点仍属于不同的集合（该边即为连通这两个集合的边中权值最小的那条），则确定该边为最小生成树上的一条边，并将该边两个顶点分属的两个集合合并。
+3. 遍历完所有的边后，若原图连通，则被选取得边和所有顶点构成最小生成树；若原图不连通，最小生成树不存在。（注意最后仍需判断）
+
+| 题目                                                         | 错题次数 | 要点                 |
+| ------------------------------------------------------------ | -------- | -------------------- |
+| [还是畅通工程](https://www.nowcoder.com/practice/d6bd75dbb36e410995f8673a6a2e2229?tpId=63&tqId=29595&tPage=2&ru=/kaoyan/retest/9001&qru=/ta/zju-kaoyan/question-ranking) | ⭐        | 1. Kruskal算法模板题 |
+
+## 9.3 最短路径
+
+- **Dijkstra算法**
+
+1. S：已经确定的顶点集合，初始只含源点s。
+2. T = V - S：尚未确定的顶点集合。
+3. 算法反复从集合T从选择当前到源点s最近的顶点u，将u加入集合S，然后对从u发出的边进行松弛操作。
+
+| 题目                                                         | 错题次数 | 要点                                                         |
+| ------------------------------------------------------------ | -------- | ------------------------------------------------------------ |
+| [畅通工程续](https://acm.hdu.edu.cn/showproblem.php?pid=1874) | ⭐⭐       | 1. Dijkstra算法模板题                                        |
+| [最短路径](https://www.nowcoder.com/practice/a29d0b5eb46b4b90bfa22aa98cf5ff17?tpId=62&tqId=29464&tPage=1&rp=1&ru=/ta/sju-kaoyan) | ⭐⭐       | 1. 利用并查集求各点之间最短路径                              |
+| [I Wanna Go Home](https://www.nowcoder.com/practice/0160bab3ce5d4ae0bb99dc605601e971?tpId=61&tqId=29500&tPage=1&ru=/kaoyan/retest/1002&qru=/ta/pku-kaoyan/question-ranking) | ⭐⭐       | 1. Dijkstra算法<br />2.注意特殊要求的解决<br />3.注意结点编号，特别是在初始化和输入输出的地方 |
+
+
 
 1. [二叉树的最大路径和](https://www.nowcoder.com/questionTerminal/da785ea0f64b442488c125b441a4ba4a)（2021中南大学大数据组机试原题），错题次数：⭐
 
