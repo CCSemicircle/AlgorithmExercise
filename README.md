@@ -8,11 +8,11 @@
 
 - **每次机试前的准备**：
 
-  （1）刷一遍板子题练手
+1. 刷一遍板子题练手
 
-  （2）看一下所有错题的要点
+2. 看一下所有错题的要点
 
-  （3）过一遍补充材料的知识
+3. 过一遍补充材料的知识
 
 # 0 板子题
 
@@ -45,7 +45,7 @@
 | 贪心       | 简单贪心               | [代理服务器](https://www.nowcoder.com/practice/1284469ee94a4762848816a42281a9e0?tpId=60&tqId=29476&tPage=1&ru=/kaoyan/retest/1001&qru=/ta/tsing-kaoyan/question-ranking) | ⭐⭐       |
 |            | 区间贪心               | [To Fill or Not to Fill](https://www.nowcoder.com/practice/f7eba38f7cd24c45982831e0f38518f9?tpId=63&tqId=29602&tPage=2&ru=/kaoyan/retest/9001&qru=/ta/zju-kaoyan/question-ranking) | ⭐⭐       |
 | 递归与分治 | 递归                   | [汉诺塔Ⅲ](http://acm.hdu.edu.cn/showproblem.php?pid=2064)    | ⭐⭐       |
-|            | 分治                   | [2的幂次方](https://www.nowcoder.com/practice/7cf7b0706d7e4b439481f53e5fdac6e7?tpId=62&tqId=29460&tPage=1&ru=/kaoyan/retest/2002&qru=/ta/sju-kaoyan/question-ranking) | ⭐        |
+|            | 分治                   | [二叉树的最大路径和](https://www.nowcoder.com/questionTerminal/da785ea0f64b442488c125b441a4ba4a) | ⭐⭐       |
 | 搜索       | 宽度优先搜索           | [玛雅人的密码](https://www.nowcoder.com/practice/761fc1e2f03742c2aa929c19ba96dbb0?tpId=60&tqId=29484&tPage=1&ru=/kaoyan/retest/1001&qru=/ta/tsing-kaoyan/question-ranking) | ⭐⭐       |
 |            | 深度优先搜索           | [Square](http://poj.org/problem?id=2362)                     | ⭐⭐       |
 |            | 深度优先搜索           | [八皇后](https://www.nowcoder.com/practice/fbf428ecb0574236a2a0295e1fa854cb?tpId=61&tqId=29558&tPage=3&ru=/kaoyan/retest/1002&qru=/ta/pku-kaoyan/question-ranking) | ⭐⭐       |
@@ -53,6 +53,18 @@
 |            | 最小生成树             | [还是畅通工程](https://www.nowcoder.com/practice/d6bd75dbb36e410995f8673a6a2e2229?tpId=63&tqId=29595&tPage=2&ru=/kaoyan/retest/9001&qru=/ta/zju-kaoyan/question-ranking) | ⭐        |
 |            | 最短路径               | [I Wanna Go Home](https://www.nowcoder.com/practice/0160bab3ce5d4ae0bb99dc605601e971?tpId=61&tqId=29500&tPage=1&ru=/kaoyan/retest/1002&qru=/ta/pku-kaoyan/question-ranking) | ⭐⭐       |
 |            | 最短路径               | [最短路径](https://www.nowcoder.com/practice/a29d0b5eb46b4b90bfa22aa98cf5ff17?tpId=62&tqId=29464&tPage=1&rp=1&ru=/ta/sju-kaoyan) | ⭐⭐       |
+|            | 拓扑排序               | [Legal or Not](https://acm.hdu.edu.cn/showproblem.php?pid=3342) | ⭐⭐       |
+|            | 关键路径               | [p3](http://www.noobdream.com/DreamJudge/Issue/page/1536/)   | ⭐⭐       |
+| 动态规划   | 递推求解               |                                                              |          |
+|            | 最大连续子序列和       | [最大子矩阵](https://www.nowcoder.com/practice/a5a0b05f0505406ca837a3a76a5419b3?tpId=61&tqId=29535&tPage=2&ru=/kaoyan/retest/1002&qru=/ta/pku-kaoyan/question-ranking) | ⭐⭐       |
+|            | 最长递增子序列         | [最长递增子序列](https://www.nowcoder.com/questionTerminal/30fb9b3cab9742ecae9acda1c75bf927) | ⭐⭐       |
+|            | 最长公共子序列         | [Coincidence](https://www.nowcoder.com/practice/f38fc44b43cf44eaa1de407430b85e69?tpId=62&tqId=29471&tPage=2&ru=/kaoyan/retest/2002&qru=/ta/sju-kaoyan/question-ranking) | ⭐        |
+|            | 背包问题               | [最小邮票数](https://www.nowcoder.com/practice/83800ae3292b4256b7349ded5f178dd1?tpId=60&tqId=29486&tPage=1&ru=/kaoyan/retest/1001&qru=/ta/tsing-kaoyan/question-ranking) | ⭐⭐       |
+|            | 背包问题               | [Piggy-Bank](https://acm.hdu.edu.cn/showproblem.php?pid=1114) | ⭐        |
+|            | 背包问题               | [珍惜现在，感恩生活](https://acm.hdu.edu.cn/showproblem.php?pid=2191) | ⭐        |
+|            | 其他规划问题           | [Monkey Banana Problem](https://lightoj.com/problem/monkey-banana-problem) | ⭐⭐       |
+|            | 其他规划问题           | [放苹果](https://www.nowcoder.com/practice/4f0c1e21010e4d849bde5297148e81d9?tpId=61&tqId=29513&tPage=1&ru=/kaoyan/retest/1002&qru=/ta/pku-kaoyan/question-ranking) | ⭐⭐       |
+|            | 其他规划问题           | [整数拆分](https://www.nowcoder.com/practice/376537f4609a49d296901db5139639ec?tpId=60&tqId=29480&tPage=1&ru=/kaoyan/retest/1001&qru=/ta/tsing-kaoyan/question-ranking) | ⭐⭐       |
 
 # 1 暴力求解
 
@@ -278,10 +290,11 @@
 2. 递归强调的是可以从子问题逐步推出母问题；
 3. 分治强调的是母问题是由多个子问题合并之后解决。
 
-| 题目                                                         | 错题次数 | 要点                                       |
-| ------------------------------------------------------------ | -------- | ------------------------------------------ |
-| [二叉树](https://www.nowcoder.com/practice/f74c7506538b44399f2849eba2f050b5?tpId=61&tqId=29557&tPage=3&ru=/kaoyan/retest/1002&qru=/ta/pku-kaoyan/question-ranking) | ⭐        | 1.找到子节点和父节点的关系然后分治递归即可 |
-| [2的幂次方](https://www.nowcoder.com/practice/7cf7b0706d7e4b439481f53e5fdac6e7?tpId=62&tqId=29460&tPage=1&ru=/kaoyan/retest/2002&qru=/ta/sju-kaoyan/question-ranking) | ⭐        | 1.找到规律，递归表示                       |
+| 题目                                                         | 错题次数 | 要点                                                         |
+| ------------------------------------------------------------ | -------- | ------------------------------------------------------------ |
+| [二叉树](https://www.nowcoder.com/practice/f74c7506538b44399f2849eba2f050b5?tpId=61&tqId=29557&tPage=3&ru=/kaoyan/retest/1002&qru=/ta/pku-kaoyan/question-ranking) | ⭐        | 1.找到子节点和父节点的关系然后分治递归即可                   |
+| [2的幂次方](https://www.nowcoder.com/practice/7cf7b0706d7e4b439481f53e5fdac6e7?tpId=62&tqId=29460&tPage=1&ru=/kaoyan/retest/2002&qru=/ta/sju-kaoyan/question-ranking) | ⭐        | 1.找到规律，递归表示                                         |
+| [二叉树的最大路径和](https://www.nowcoder.com/questionTerminal/da785ea0f64b442488c125b441a4ba4a) | ⭐⭐       | 1.注意在每个根结点处判断是否更新最大值<br />2.是否带上某个分支，可将其与0比较，max(sum, 0) |
 
 # 8 搜索
 
@@ -358,10 +371,182 @@
 | [最短路径](https://www.nowcoder.com/practice/a29d0b5eb46b4b90bfa22aa98cf5ff17?tpId=62&tqId=29464&tPage=1&rp=1&ru=/ta/sju-kaoyan) | ⭐⭐       | 1. 利用并查集求各点之间最短路径                              |
 | [I Wanna Go Home](https://www.nowcoder.com/practice/0160bab3ce5d4ae0bb99dc605601e971?tpId=61&tqId=29500&tPage=1&ru=/kaoyan/retest/1002&qru=/ta/pku-kaoyan/question-ranking) | ⭐⭐       | 1. Dijkstra算法<br />2.注意特殊要求的解决<br />3.注意结点编号，特别是在初始化和输入输出的地方 |
 
+## 9.4 拓扑排序
+
+- 拓扑排序
+
+对于一个有向无环图（DAG），将图中所有顶点排成一个线性序列，使得在该序列中顶点U都排列在顶点V之前。满足该要求的顶点序列被称为满足拓扑序列，求这个序列的过程称为拓扑排序。
+
+- **常见的算法步骤**
+
+1. 从DAG图中选择入度为0的顶点，并输出
+2. 从图中删除该入度为0的顶点及所有以它为起点的边
+3. 重复1和2直到当前图为空，或者图中不存在入度为0的顶点。前者输出的序列就是拓扑序列；后者说明有环，不存在拓扑序列。
+
+| 题目                                                         | 错题次数 | 要点                |
+| ------------------------------------------------------------ | -------- | ------------------- |
+| [Legal or Not](https://acm.hdu.edu.cn/showproblem.php?pid=3342) | ⭐⭐       | 1.拓扑排序模板题    |
+| [确定比赛名次](https://acm.hdu.edu.cn/showproblem.php?pid=1285) | ⭐        | 1.拓扑排序+优先队列 |
+
+## 9.5 关键路径
+
+- **AOE网概念（Activity On Edge NetWork）**
+
+1. 在带权有向图中，若以顶点表示事件，以有向边表示活动，以边上的权值表示该活动持续的时间，则这样的图被称为AOE网。
+
+2. 工程的开始顶点称为源点，结束顶点称为汇点。
+
+3. 只有所有路径上的活动都完成了，整个工程才算结束。
+4. **从源点到汇点的所有路径中，具有最大路径长度的路径称为关键路径**。
+
+- **关键路径相关概念**
+
+1. **最早开始时间：**该活动的前序活动都已完成，可以进行该活动的时间；
+2. **最晚开始时间：**该活动的后续活动要按时完成，该活动必须开始的时间；
+3. 非重要的活动可以允许最早开始时间和最晚开始时间不同，但是重要活动不允许，因为关键活动会影响整个工程的时间；
+4. **求关键路径即转换为求每个活动的最早开始时间和最晚开始时间，之后判断二者是否相等，便可活动关键路径上的关键活动；**
+5. **对于一个活动而言，其全部先序活动的最晚完成时间便是该活动的最早开始时间；**
+6. **对于一个活动而言，其全部后序活动的最早开始时间（对应上一条，即该活动的最晚完成时间）减去该活动需要花费的时间，便是该活动的最晚开始时间。**
+
+- **求关键路径算法步骤**
+
+1. 先求拓扑序列
+
+2. 顺序求出每个活动的最早开始时间
+
+3. 逆序求出每个活动的最晚开始时间
+
+4. 最早开始时间等于最晚开始时间的活动即为关键活动
 
 
-1. [二叉树的最大路径和](https://www.nowcoder.com/questionTerminal/da785ea0f64b442488c125b441a4ba4a)（2021中南大学大数据组机试原题），错题次数：⭐
+- **AOE网下的计算**
+
+**（1）计算关键路径长度：**所有活动中的**最早开始时间的最大值就是关键路径的长度**，即**汇点的最早开始时间**。因为用边表示活动，汇点的开始时间即为关键路径的结束。但是不知道汇点是哪一个，所以需要求最早开始时间的最大值。但是如果初始化为0，最终的完成时间需要加上汇点任务的时长。
+
+**（2）初始化：**对于最早时间的初始化，如果题目没有特殊要求，那么所有结点都初始化为0；对于最晚开始时间的初始化，如果题目没有特殊要求，那么**汇点**的最晚开始时间初始化为它的最早开始时间，其余结点初始化为INF。
+
+- **AOV网下的计算**
+
+**（1）计算关键路径长度：**所有活动中的**最早开始时间+活动完成时间的最大值就是关键路径的长度**，即**汇点的最早开始时间+活动完成时间**。
+
+**（2）初始化：**对于最早时间的初始化，如果题目没有特殊要求，那么所有结点都初始化为0；对于最晚开始时间的初始化，如果题目没有特殊要求，那么**出度为0的结点（注意有多个）**的最晚开始时间初始化为**总时间-活动完成时间**，其余结点初始化为INF。
+
+| 题目                                                         | 错题次数 | 要点                                                         |
+| ------------------------------------------------------------ | -------- | ------------------------------------------------------------ |
+| [Instructions Arrangement](https://acm.hdu.edu.cn/showproblem.php?pid=4109) | ⭐⭐       | 1.将安全距离视为活动则等价于求关键路径长度<br />2.关键路径长度为最早开始时间的最大值 |
+| [p3](http://www.noobdream.com/DreamJudge/Issue/page/1536/)   | ⭐⭐       | 1.注意这里是AOV网，计算方式不一样                            |
 
 # 10. 动态规划
 
-1. [最长递增子序列](https://www.nowcoder.com/questionTerminal/30fb9b3cab9742ecae9acda1c75bf927)（2021中南大学大数据组机试原题），错题次数：⭐
+## 10.1 递推求解
+
+> 暂无错题
+
+## 10.2 最大连续子序列和
+
+- **状态转移方程**
+
+dp[i] =  max{ A[i], dp[i-1] + A[i] }
+
+- **求二维矩阵的最大子矩阵和**
+
+**假设原二维矩阵中最大子矩阵所在行是从 i 到 j **，那么只会出现下面两种情况：
+
+（1）当 i = j 时，求最大子矩阵和就转换成了求第 i 行元素的最大连续子序列和；
+
+（2）当 i != j 时，就**把从第 i 行到第 j 行的所有元素按列相加**，得到只有一行的一维数组，从而变成求该一维数组的最大连续子序列和。
+
+| 题目                                                         | 错题次数 | 要点                                                         |
+| ------------------------------------------------------------ | -------- | ------------------------------------------------------------ |
+| [最大序列和](https://www.nowcoder.com/practice/df219d60a7af4171a981ef56bd597f7b?tpId=60&tqId=29494&tPage=2&ru=/kaoyan/retest/1001&qru=/ta/tsing-kaoyan/question-ranking) | ⚪        | 1.最大连续子序列和模板题                                     |
+| [最大子矩阵](https://www.nowcoder.com/practice/a5a0b05f0505406ca837a3a76a5419b3?tpId=61&tqId=29535&tPage=2&ru=/kaoyan/retest/1002&qru=/ta/pku-kaoyan/question-ranking) | ⭐⭐       | 1.二维最大连续子序列和<br />2.类似选择排序的逻辑，从第 i 行到第 j 行找最大子矩阵 |
+
+## 10.3 最长递增子序列
+
+- **状态转移方程**
+
+dp[i] = max{ 1, dp[j]+1 | j < i, A[j] < A[i] }
+
+- **输出同时将查找小于 i 的第 j 个元素优化到 O(nlogn)**
+
+构建一个辅助数组tails，tails[i]表示长度为 i+1 的递增子序列的最小的结束元素。
+
+| 题目                                                         | 错题次数 | 要点                                                         |
+| ------------------------------------------------------------ | -------- | ------------------------------------------------------------ |
+| [拦截导弹](https://www.nowcoder.com/practice/dad3aa23d74b4aaea0749042bba2358a?tpId=61&tqId=29549&tPage=3&ru=/kaoyan/retest/1002&qru=/ta/pku-kaoyan/question-ranking) | ⭐        | 1.最长递增子序列模板题                                       |
+| [最长递增子序列](https://www.nowcoder.com/questionTerminal/30fb9b3cab9742ecae9acda1c75bf927) | ⭐⭐       | 1.动态规划+二分查找<br />2.构建辅助数据保存字典序最小的最长递增子序列<br />3.注意最后的输出 |
+
+## 10.4 最长公共子序列
+
+- **状态转移方程**：dp\[i\]\[j\]代表截止到 s1[i] 和 s2[j] 的最长公共子序列长度
+
+dp\[i\]\[j\] = dp\[i-1\]\[j-1\] + 1,  s[i] = s[j]
+
+dp\[i\]\[j\] = max{ dp\[i-1\]\[j\], dp\[i\]\[j-1\] },  s[i] != s[j]
+
+- **边界情况**：其中一个字符串为空串
+
+dp\[i\][0] = 0,  0<= i <= n
+
+dp\[0\]\[j\] = 0,  0<= j <= m
+
+| 题目                                                         | 错题次数 | 要点                                                         |
+| ------------------------------------------------------------ | -------- | ------------------------------------------------------------ |
+| [Common Subsequence](http://acm.hdu.edu.cn/showproblem.php?pid=1159) | ⭐        | 1.注意从1开始输入，方便处理边界条件<br />2.从1开始输入时需要注意正确获取字符串真实长度 |
+| [Coincidence](https://www.nowcoder.com/practice/f38fc44b43cf44eaa1de407430b85e69?tpId=62&tqId=29471&tPage=2&ru=/kaoyan/retest/2002&qru=/ta/sju-kaoyan/question-ranking) | ⭐        | 1.最长公共子序列模板题                                       |
+
+## 10.5 背包问题
+
+- **0-1背包**：每种物品只有取和不取两种
+
+1. **原始的状态转移方程：**dp\[i]\[j]为前 i 件物品装进容量为 j 的背包能获得的最大价值
+
+dp\[i]\[j] = max{ dp\[i-1][j],  dp\[i-1][ j - w[i] ] + v[i] }，分为第 i 件物品是否放入两种情况，注意保证j > w[i]
+
+**边界条件为：**
+
+dp\[i\][0] = 0,  0<= i <= n
+
+dp\[0\]\[j\] = 0,  0<= j <= m
+
+2. **优化的状态转移方程**：因为二维数组dp本行仅与上一行有关，所以可以优化为一维数组。
+
+dp[i] = max{ dp[j], dp[ j-w[i] ] + v[i] }，**为了保证在每次更新中确定状态dp[j]时，dp[ j - w[i] ] 尚未被本次更新修改，需要在每次更新中，倒序遍历所有的 j 值**（因为 j - w[i] 比 j 小，正序遍历时已经被修改）
+
+
+
+- **完全背包**：每种物品不只可以取一件，而是可以取多件
+
+1.**原始的状态转移方程：**dp\[i]\[j]为前 i 件物品装进容量为 j 的背包能获得的最大价值
+
+dp\[i]\[j] = max{ dp\[i-1][j],  dp\[i][ j - w[i] ] + v[i] }，分为第 i 件物品是否放入两种情况，但是跟01背包不同的是放入之后并不是转入 dp\[i-1][ j - w[i] ]，而是**转入  dp\[i][ j - w[i] ]**
+
+**边界条件为：**
+
+dp\[i\][0] = 0,  0<= i <= n
+
+dp\[0\]\[j\] = 0,  0<= j <= m
+
+2. **优化的状态转移方程**：因为**二维数组dp本行仅与本行之前的状态以及上一行有关**，所以可以优化为一维数组。
+
+dp[i] = max{ dp[j], dp[ j-w[i] ] + v[i] }，**为了保证在每次更新中确定状态dp[j]时，dp[ j - w[i] ] （本行状态）已经被本次更新修改，需要在每次更新中，正序遍历所有的 j 值**（因为 j - w[i] 是本行之前的状态，需要确保已经被修改）
+
+
+
+- **多重背包：**每种物品既不是只能取一件，也不是能取无穷件，而是最多只能取k件
+
+思路：**将原数量为k的物品拆分为若干组，将每组物品视为一件物品，其价值和重量为该组中所有物品的价值重量之和。**每组物品包含的原物品个数分别为 2^0, 2^1, 2^2,···, 2^c-1, k-2^c+1，其中c是使得 k-2^c+1 ≥ 0 的最大整数。对这些新的物品做0-1背包，即可得到多重背包的解。
+
+| 题目                                                         | 错题次数 | 要点                                                         |
+| ------------------------------------------------------------ | -------- | ------------------------------------------------------------ |
+| [点菜问题](https://www.nowcoder.com/practice/b44f5be34a9143aa84c478d79401e22a?tpId=61&tqId=29538&tPage=2&ru=/kaoyan/retest/1002&qru=/ta/pku-kaoyan/question-ranking) | ⭐        | 1. 0-1背包模板题                                             |
+| [最小邮票数](https://www.nowcoder.com/practice/83800ae3292b4256b7349ded5f178dd1?tpId=60&tqId=29486&tPage=1&ru=/kaoyan/retest/1001&qru=/ta/tsing-kaoyan/question-ranking) | ⭐⭐       | 1. 0-1背包求最小值问题<br />2. 为了保证取最小值，需要将dp初始化为一个极大值，但极大值不能初始化为INT_MAX，INT_MAX+1溢出变成负数，会干扰计算结果<br />3. 最后需要初始化一个真实的边界条件，否则无法输出 |
+| [Piggy-Bank](https://acm.hdu.edu.cn/showproblem.php?pid=1114) | ⭐        | 1.完全背包求最小值问题<br />2.注意求最小值问题里dp的初始化   |
+| [珍惜现在，感恩生活](https://acm.hdu.edu.cn/showproblem.php?pid=2191) | ⭐        | 1. 多重背包模板题<br />2.注意分组是从0次幂，依次到1,2,3次幂等，而不是看二进制表示的非0位 |
+| [The Triangle](http://poj.org/problem?id=1163)               | ⭐⭐       | 1. 动态规划问题，注意逆向思维考虑状态转移方程，题目要求的是从上到下的路径，可以从下往上推 |
+| [Monkey Banana Problem](https://lightoj.com/problem/monkey-banana-problem) | ⭐⭐       | 1. 动态规划问题，思路基本同The Triangle，注意上下部分的区别：下半部分的取值不同，且边界有限制 |
+| [放苹果](https://www.nowcoder.com/practice/4f0c1e21010e4d849bde5297148e81d9?tpId=61&tqId=29513&tPage=1&ru=/kaoyan/retest/1002&qru=/ta/pku-kaoyan/question-ranking) | ⭐⭐       | 1. 动态规划问题，考虑不同的情况所对应不同的转移方程          |
+| [整数拆分](https://www.nowcoder.com/practice/376537f4609a49d296901db5139639ec?tpId=60&tqId=29480&tPage=1&ru=/kaoyan/retest/1001&qru=/ta/tsing-kaoyan/question-ranking) | ⭐⭐       | 1. 动态规划问题，一定要注意找规律，找到当前状态与之前状态的数学关系，在动态规划问题里，之后的状态一定依赖于之前的状态 |
+
+
+
