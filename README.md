@@ -16,55 +16,73 @@
 
 # 0 板子题
 
-| 分类       | 标签                   | 题目                                                         | 错题次数 |
-| ---------- | ---------------------- | ------------------------------------------------------------ | -------- |
-| 暴力求解   | 枚举                   | [百鸡问题](https://www.nowcoder.com/practice/01d161052db64c249a47fc723b4fd5db?tpId=40&tqId=21487&tPage=1&rp=1&ru=/ta/kaoyan&qru=/ta/kaoyan/question-ranking) | ⭐⭐       |
-|            | 模拟                   | [Repeater](https://www.nowcoder.com/practice/97fd3a67eff4455ea3f4d179d6467de9?tpId=40&tqId=21389&tPage=1&rp=1&ru=/ta/kaoyan&qru=/ta/kaoyan/question-ranking) | ⭐⭐       |
-|            | 模拟                   | [Day of Week](https://www.nowcoder.com/practice/a3417270d1c0421587a60b93cdacbca0?tpId=40&tqId=21439&tPage=1&rp=1&ru=/ta/kaoyan&qru=/ta/kaoyan/question-ranking) | ⭐⭐       |
-|            | 模拟                   | [路径打印](https://www.nowcoder.com/practice/64b472c9bed247b586859978d13145ad?tpId=62&tqId=29457&tPage=1&ru=/kaoyan/retest/2002&qru=/ta/sju-kaoyan/question-ranking) | ⭐⭐       |
-| 排序与查找 | 排序                   | [奥运排序问题](https://www.nowcoder.com/practice/100a4376cafc439b86f5f8791fb461f3?tpId=63&tqId=29564&tPage=1&ru=/kaoyan/retest/9001&qru=/ta/zju-kaoyan/question-ranking) | ⭐⭐       |
-|            | 查找                   | [找位置](https://www.nowcoder.com/practice/e3b2cc44aa9b4851bdca89dd79c53150?tpId=40&tqId=21560&tPage=1&rp=1&ru=/ta/kaoyan&qru=/ta/kaoyan/question-ranking) | ⭐⭐       |
-| 字符串     | 字符串处理             | [浮点数加法](https://www.nowcoder.com/practice/ddec753f446e4ba4944e35378ba635c8?tpId=61&tqId=29551&tPage=3&ru=/kaoyan/retest/1002&qru=/ta/pku-kaoyan/question-ranking) | ⭐⭐       |
-|            | 字符串匹配             | [String Matching](https://www.nowcoder.com/practice/00438b0bc9384ceeb65613346b42e88a?tpId=62&tqId=29448&tPage=1&rp=1&ru=/ta/sju-kaoyan) | ⭐⭐       |
-|            | 字符串匹配             | [字符串匹配](https://www.nowcoder.com/practice/fbdc522ef958455687654b38a4ca01e0?tpId=66&tqId=29633&tPage=1&ru=/kaoyan/retest/1004&qru=/ta/buaa-kaoyan/question-ranking) | ⭐⭐       |
-| 数据结构   | 向量                   |                                                              |          |
-|            | 队列                   | [约瑟夫问题NO.2](http://bailian.openjudge.cn/practice/3254)  | ⭐        |
-|            | 栈                     | [简单计算器](https://www.nowcoder.com/practice/5759c29a28cb4361bc3605979d5a6130?tpId=63&tqId=29576&tPage=1&ru=/kaoyan/retest/9001&qru=/ta/zju-kaoyan/question-ranking) | ⭐⭐       |
-|            | 二叉树                 | [二叉树遍历](https://www.nowcoder.com/practice/4b91205483694f449f94c179883c1fef?tpId=60&tqId=29483&tPage=1&ru=/kaoyan/retest/1001&qru=/ta/tsing-kaoyan/question-ranking) | ⭐⭐       |
-|            | 二叉排序树             | [二叉搜索树](https://www.nowcoder.com/practice/3d6dd9a58d5246f29f71683346bb8f1b?tpId=63&tqId=29571&tPage=1&ru=/kaoyan/retest/9001&qru=/ta/zju-kaoyan/question-ranking) | ⭐        |
-|            | 优先队列               | [哈夫曼树](https://www.nowcoder.com/practice/162753046d5f47c7aac01a5b2fcda155?tpId=67&tqId=29635&tPage=1&ru=/kaoyan/retest/1005&qru=/ta/bupt-kaoyan/question-ranking) | ⭐⭐       |
-|            | 散列表                 | [开门人和关门人](https://www.nowcoder.com/practice/a4b37b53a44d454ab0834e1517983215?tpId=63&tqId=29587&tPage=2&ru=%2Fkaoyan%2Fretest%2F9001&qru=%2Fta%2Fzju-kaoyan%2Fquestion-ranking) | ⭐        |
-| 数学问题   | 进制转换               | [进制转换2](https://www.nowcoder.com/practice/ae4b3c4a968745618d65b866002bbd32?tpId=60&tqId=31034&tPage=2&ru=/kaoyan/retest/1001&qru=/ta/tsing-kaoyan/question-ranking) | ⭐⭐       |
-|            | 进制转换               | [10进制 VS 2进制](https://www.nowcoder.com/practice/fd972d5d5cf04dd4bb4e5f027d4fc11e?tpId=60&tqId=29498&tPage=2&ru=/kaoyan/retest/1001&qru=/ta/tsing-kaoyan/question-ranking) | ⭐⭐       |
-|            | 最大公约数与最小公倍数 | [最简真分数](https://www.nowcoder.com/practice/1f1db273eeb745c6ac83e91ff14d2ec9?tpId=61&tqId=29507&tPage=1&ru=%2Fkaoyan%2Fretest%2F1002&qru=%2Fta%2Fpku-kaoyan%2Fquestion-ranking) | ⭐        |
-|            | 质数                   | [Prime Number](https://www.nowcoder.com/practice/c5f8688cea8a4a9a88edbd67d1358415?tpId=62&tqId=29467&tPage=1&ru=/kaoyan/retest/2002&qru=/ta/sju-kaoyan/question-ranking) | ⭐⭐       |
-|            | 分解质因数             | [整除问题](https://www.nowcoder.com/practice/8e29045de1c84d349b43fdb123ab586a?tpId=62&tqId=29462&tPage=1&ru=/kaoyan/retest/2002&qru=/ta/sju-kaoyan/question-ranking) | ⭐⭐       |
-|            | 快速幂                 | [求root(N, k)](https://www.nowcoder.com/practice/9324a1458c564c4b9c4bfc3867a2aa66?tpId=60&tqId=29488&tPage=1&ru=/kaoyan/retest/1001&qru=/ta/tsing-kaoyan/question-ranking) | ⭐⭐       |
-|            | 矩阵与矩阵快速幂       | [矩阵幂](https://www.nowcoder.com/practice/31e539ab08f949a8bece2a7503e9319a?tpId=67&tqId=29638&tPage=1&ru=/kaoyan/retest/1005&qru=/ta/bupt-kaoyan/question-ranking) | ⭐        |
-|            | 高精度整数             |                                                              |          |
-| 贪心       | 简单贪心               | [代理服务器](https://www.nowcoder.com/practice/1284469ee94a4762848816a42281a9e0?tpId=60&tqId=29476&tPage=1&ru=/kaoyan/retest/1001&qru=/ta/tsing-kaoyan/question-ranking) | ⭐⭐       |
-|            | 区间贪心               | [To Fill or Not to Fill](https://www.nowcoder.com/practice/f7eba38f7cd24c45982831e0f38518f9?tpId=63&tqId=29602&tPage=2&ru=/kaoyan/retest/9001&qru=/ta/zju-kaoyan/question-ranking) | ⭐⭐       |
-| 递归与分治 | 递归                   | [汉诺塔Ⅲ](http://acm.hdu.edu.cn/showproblem.php?pid=2064)    | ⭐⭐       |
-|            | 分治                   | [二叉树的最大路径和](https://www.nowcoder.com/questionTerminal/da785ea0f64b442488c125b441a4ba4a) | ⭐⭐       |
-| 搜索       | 宽度优先搜索           | [玛雅人的密码](https://www.nowcoder.com/practice/761fc1e2f03742c2aa929c19ba96dbb0?tpId=60&tqId=29484&tPage=1&ru=/kaoyan/retest/1001&qru=/ta/tsing-kaoyan/question-ranking) | ⭐⭐       |
-|            | 深度优先搜索           | [Square](http://poj.org/problem?id=2362)                     | ⭐⭐       |
-|            | 深度优先搜索           | [八皇后](https://www.nowcoder.com/practice/fbf428ecb0574236a2a0295e1fa854cb?tpId=61&tqId=29558&tPage=3&ru=/kaoyan/retest/1002&qru=/ta/pku-kaoyan/question-ranking) | ⭐⭐       |
-| 图论       | 并查集                 | [找到直系亲属](https://www.nowcoder.com/practice/2c958d09d29f46798696f15ae7c9703b?tpId=63&tqId=29569&tPage=1&ru=/kaoyan/retest/9001&qru=/ta/zju-kaoyan/question-ranking) | ⭐        |
-|            | 最小生成树             | [还是畅通工程](https://www.nowcoder.com/practice/d6bd75dbb36e410995f8673a6a2e2229?tpId=63&tqId=29595&tPage=2&ru=/kaoyan/retest/9001&qru=/ta/zju-kaoyan/question-ranking) | ⭐        |
-|            | 最短路径               | [I Wanna Go Home](https://www.nowcoder.com/practice/0160bab3ce5d4ae0bb99dc605601e971?tpId=61&tqId=29500&tPage=1&ru=/kaoyan/retest/1002&qru=/ta/pku-kaoyan/question-ranking) | ⭐⭐       |
-|            | 最短路径               | [最短路径](https://www.nowcoder.com/practice/a29d0b5eb46b4b90bfa22aa98cf5ff17?tpId=62&tqId=29464&tPage=1&rp=1&ru=/ta/sju-kaoyan) | ⭐⭐       |
-|            | 拓扑排序               | [Legal or Not](https://acm.hdu.edu.cn/showproblem.php?pid=3342) | ⭐⭐       |
-|            | 关键路径               | [p3](http://www.noobdream.com/DreamJudge/Issue/page/1536/)   | ⭐⭐       |
-| 动态规划   | 递推求解               |                                                              |          |
-|            | 最大连续子序列和       | [最大子矩阵](https://www.nowcoder.com/practice/a5a0b05f0505406ca837a3a76a5419b3?tpId=61&tqId=29535&tPage=2&ru=/kaoyan/retest/1002&qru=/ta/pku-kaoyan/question-ranking) | ⭐⭐       |
-|            | 最长递增子序列         | [最长递增子序列](https://www.nowcoder.com/questionTerminal/30fb9b3cab9742ecae9acda1c75bf927) | ⭐⭐       |
-|            | 最长公共子序列         | [Coincidence](https://www.nowcoder.com/practice/f38fc44b43cf44eaa1de407430b85e69?tpId=62&tqId=29471&tPage=2&ru=/kaoyan/retest/2002&qru=/ta/sju-kaoyan/question-ranking) | ⭐        |
-|            | 背包问题               | [最小邮票数](https://www.nowcoder.com/practice/83800ae3292b4256b7349ded5f178dd1?tpId=60&tqId=29486&tPage=1&ru=/kaoyan/retest/1001&qru=/ta/tsing-kaoyan/question-ranking) | ⭐⭐       |
-|            | 背包问题               | [Piggy-Bank](https://acm.hdu.edu.cn/showproblem.php?pid=1114) | ⭐        |
-|            | 背包问题               | [珍惜现在，感恩生活](https://acm.hdu.edu.cn/showproblem.php?pid=2191) | ⭐        |
-|            | 其他规划问题           | [Monkey Banana Problem](https://lightoj.com/problem/monkey-banana-problem) | ⭐⭐       |
-|            | 其他规划问题           | [放苹果](https://www.nowcoder.com/practice/4f0c1e21010e4d849bde5297148e81d9?tpId=61&tqId=29513&tPage=1&ru=/kaoyan/retest/1002&qru=/ta/pku-kaoyan/question-ranking) | ⭐⭐       |
-|            | 其他规划问题           | [整数拆分](https://www.nowcoder.com/practice/376537f4609a49d296901db5139639ec?tpId=60&tqId=29480&tPage=1&ru=/kaoyan/retest/1001&qru=/ta/tsing-kaoyan/question-ranking) | ⭐⭐       |
+
+
+| 分类       | 标签                   | 题目                                                         | 错题次数 | 难度系数     |
+| ---------- | ---------------------- | ------------------------------------------------------------ | -------- | ------------ |
+| 暴力求解   | 枚举                   | [百鸡问题](https://www.nowcoder.com/practice/01d161052db64c249a47fc723b4fd5db?tpId=40&tqId=21487&tPage=1&rp=1&ru=/ta/kaoyan&qru=/ta/kaoyan/question-ranking) | ⭐⭐       | 王道         |
+|            | 模拟                   | [Repeater](https://www.nowcoder.com/practice/97fd3a67eff4455ea3f4d179d6467de9?tpId=40&tqId=21389&tPage=1&rp=1&ru=/ta/kaoyan&qru=/ta/kaoyan/question-ranking) | ⭐⭐       | 王道         |
+|            | 模拟                   | [Day of Week](https://www.nowcoder.com/practice/a3417270d1c0421587a60b93cdacbca0?tpId=40&tqId=21439&tPage=1&rp=1&ru=/ta/kaoyan&qru=/ta/kaoyan/question-ranking) | ⭐⭐       | 王道         |
+|            | 模拟                   | [路径打印](https://www.nowcoder.com/practice/64b472c9bed247b586859978d13145ad?tpId=62&tqId=29457&tPage=1&ru=/kaoyan/retest/2002&qru=/ta/sju-kaoyan/question-ranking) | ⭐⭐       | 王道         |
+| 排序与查找 | 排序                   | [奥运排序问题](https://www.nowcoder.com/practice/100a4376cafc439b86f5f8791fb461f3?tpId=63&tqId=29564&tPage=1&ru=/kaoyan/retest/9001&qru=/ta/zju-kaoyan/question-ranking) | ⭐⭐       | 王道         |
+|            | 查找                   | [找位置](https://www.nowcoder.com/practice/e3b2cc44aa9b4851bdca89dd79c53150?tpId=40&tqId=21560&tPage=1&rp=1&ru=/ta/kaoyan&qru=/ta/kaoyan/question-ranking) | ⭐⭐       | 王道         |
+|            | 查找                   | [x 的平方根](https://leetcode-cn.com/problems/sqrtx/)        | ⭐        | LC101        |
+|            | 查找                   | [搜索旋转排序数组 II](https://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii/) | ⭐        | LC101        |
+|            | 查找                   | [寻找旋转排序数组中的最小值 II](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/) | ⭐        | LC101        |
+|            | 查找                   | [有序数组中的单一元素](https://leetcode-cn.com/problems/single-element-in-a-sorted-array/) | ⭐        | LC101        |
+|            | 查找                   | [寻找两个正序数组的中位数](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/) | ⭐        | LC101        |
+| 字符串     | 字符串处理             | [浮点数加法](https://www.nowcoder.com/practice/ddec753f446e4ba4944e35378ba635c8?tpId=61&tqId=29551&tPage=3&ru=/kaoyan/retest/1002&qru=/ta/pku-kaoyan/question-ranking) | ⭐⭐       | 王道         |
+|            | 字符串匹配             | [String Matching](https://www.nowcoder.com/practice/00438b0bc9384ceeb65613346b42e88a?tpId=62&tqId=29448&tPage=1&rp=1&ru=/ta/sju-kaoyan) | ⭐⭐       | 王道         |
+|            | 字符串匹配             | [字符串匹配](https://www.nowcoder.com/practice/fbdc522ef958455687654b38a4ca01e0?tpId=66&tqId=29633&tPage=1&ru=/kaoyan/retest/1004&qru=/ta/buaa-kaoyan/question-ranking) | ⭐⭐       | 王道         |
+| 数据结构   | 向量                   |                                                              |          |              |
+|            | 队列                   | [约瑟夫问题NO.2](http://bailian.openjudge.cn/practice/3254)  | ⭐        | 王道         |
+|            | 栈                     | [简单计算器](https://www.nowcoder.com/practice/5759c29a28cb4361bc3605979d5a6130?tpId=63&tqId=29576&tPage=1&ru=/kaoyan/retest/9001&qru=/ta/zju-kaoyan/question-ranking) | ⭐⭐       | 王道         |
+|            | 二叉树                 | [二叉树遍历](https://www.nowcoder.com/practice/4b91205483694f449f94c179883c1fef?tpId=60&tqId=29483&tPage=1&ru=/kaoyan/retest/1001&qru=/ta/tsing-kaoyan/question-ranking) | ⭐⭐       | 王道         |
+|            | 二叉排序树             | [二叉搜索树](https://www.nowcoder.com/practice/3d6dd9a58d5246f29f71683346bb8f1b?tpId=63&tqId=29571&tPage=1&ru=/kaoyan/retest/9001&qru=/ta/zju-kaoyan/question-ranking) | ⭐        | 王道         |
+|            | 优先队列               | [哈夫曼树](https://www.nowcoder.com/practice/162753046d5f47c7aac01a5b2fcda155?tpId=67&tqId=29635&tPage=1&ru=/kaoyan/retest/1005&qru=/ta/bupt-kaoyan/question-ranking) | ⭐⭐       | 王道         |
+|            | 散列表                 | [开门人和关门人](https://www.nowcoder.com/practice/a4b37b53a44d454ab0834e1517983215?tpId=63&tqId=29587&tPage=2&ru=%2Fkaoyan%2Fretest%2F9001&qru=%2Fta%2Fzju-kaoyan%2Fquestion-ranking) | ⭐        | 王道         |
+| 数学问题   | 进制转换               | [进制转换2](https://www.nowcoder.com/practice/ae4b3c4a968745618d65b866002bbd32?tpId=60&tqId=31034&tPage=2&ru=/kaoyan/retest/1001&qru=/ta/tsing-kaoyan/question-ranking) | ⭐⭐       | 王道         |
+|            | 进制转换               | [10进制 VS 2进制](https://www.nowcoder.com/practice/fd972d5d5cf04dd4bb4e5f027d4fc11e?tpId=60&tqId=29498&tPage=2&ru=/kaoyan/retest/1001&qru=/ta/tsing-kaoyan/question-ranking) | ⭐⭐       | 王道         |
+|            | 最大公约数与最小公倍数 | [最简真分数](https://www.nowcoder.com/practice/1f1db273eeb745c6ac83e91ff14d2ec9?tpId=61&tqId=29507&tPage=1&ru=%2Fkaoyan%2Fretest%2F1002&qru=%2Fta%2Fpku-kaoyan%2Fquestion-ranking) | ⭐        | 王道         |
+|            | 质数                   | [Prime Number](https://www.nowcoder.com/practice/c5f8688cea8a4a9a88edbd67d1358415?tpId=62&tqId=29467&tPage=1&ru=/kaoyan/retest/2002&qru=/ta/sju-kaoyan/question-ranking) | ⭐⭐       | 王道         |
+|            | 分解质因数             | [整除问题](https://www.nowcoder.com/practice/8e29045de1c84d349b43fdb123ab586a?tpId=62&tqId=29462&tPage=1&ru=/kaoyan/retest/2002&qru=/ta/sju-kaoyan/question-ranking) | ⭐⭐       | 王道         |
+|            | 快速幂                 | [求root(N, k)](https://www.nowcoder.com/practice/9324a1458c564c4b9c4bfc3867a2aa66?tpId=60&tqId=29488&tPage=1&ru=/kaoyan/retest/1001&qru=/ta/tsing-kaoyan/question-ranking) | ⭐⭐       | 王道         |
+|            | 矩阵与矩阵快速幂       | [矩阵幂](https://www.nowcoder.com/practice/31e539ab08f949a8bece2a7503e9319a?tpId=67&tqId=29638&tPage=1&ru=/kaoyan/retest/1005&qru=/ta/bupt-kaoyan/question-ranking) | ⭐        | 王道         |
+|            | 高精度整数             |                                                              |          |              |
+| 贪心       | 简单贪心               | [代理服务器](https://www.nowcoder.com/practice/1284469ee94a4762848816a42281a9e0?tpId=60&tqId=29476&tPage=1&ru=/kaoyan/retest/1001&qru=/ta/tsing-kaoyan/question-ranking) | ⭐⭐       | 王道         |
+|            | 简单贪心               | [分发糖果](https://leetcode-cn.com/problems/candy/)          | ⭐        | LC101        |
+|            | 简单贪心               | [种花问题](https://leetcode-cn.com/problems/can-place-flowers/) | ⚪        | LC101        |
+|            | 简单贪心               | [买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/) | ⚪        | LC101        |
+|            | 简单贪心               | [根据身高重建队列](https://leetcode-cn.com/problems/queue-reconstruction-by-height/) | ⭐        | LC101        |
+|            | 简单贪心               | [非递减数列](https://leetcode-cn.com/problems/non-decreasing-array/) | ⭐        | LC101        |
+|            | 区间贪心               | [To Fill or Not to Fill](https://www.nowcoder.com/practice/f7eba38f7cd24c45982831e0f38518f9?tpId=63&tqId=29602&tPage=2&ru=/kaoyan/retest/9001&qru=/ta/zju-kaoyan/question-ranking) | ⭐⭐       | 王道         |
+|            | 区间贪心               | [无重叠区间](https://leetcode-cn.com/problems/non-overlapping-intervals/) | ⭐        | LC101        |
+|            | 区间贪心               | [划分字母区间](https://leetcode-cn.com/problems/partition-labels/) | ⭐        | LC101        |
+| 递归与分治 | 递归                   | [汉诺塔Ⅲ](http://acm.hdu.edu.cn/showproblem.php?pid=2064)    | ⭐⭐       | 王道         |
+|            | 分治                   | [二叉树的最大路径和](https://www.nowcoder.com/questionTerminal/da785ea0f64b442488c125b441a4ba4a) | ⭐⭐       | 保研机试真题 |
+| 搜索       | 宽度优先搜索           | [玛雅人的密码](https://www.nowcoder.com/practice/761fc1e2f03742c2aa929c19ba96dbb0?tpId=60&tqId=29484&tPage=1&ru=/kaoyan/retest/1001&qru=/ta/tsing-kaoyan/question-ranking) | ⭐⭐       | 王道         |
+|            | 深度优先搜索           | [Square](http://poj.org/problem?id=2362)                     | ⭐⭐       | 王道         |
+|            | 深度优先搜索           | [八皇后](https://www.nowcoder.com/practice/fbf428ecb0574236a2a0295e1fa854cb?tpId=61&tqId=29558&tPage=3&ru=/kaoyan/retest/1002&qru=/ta/pku-kaoyan/question-ranking) | ⭐⭐       | 王道         |
+| 图论       | 并查集                 | [找到直系亲属](https://www.nowcoder.com/practice/2c958d09d29f46798696f15ae7c9703b?tpId=63&tqId=29569&tPage=1&ru=/kaoyan/retest/9001&qru=/ta/zju-kaoyan/question-ranking) | ⭐        | 王道         |
+|            | 最小生成树             | [还是畅通工程](https://www.nowcoder.com/practice/d6bd75dbb36e410995f8673a6a2e2229?tpId=63&tqId=29595&tPage=2&ru=/kaoyan/retest/9001&qru=/ta/zju-kaoyan/question-ranking) | ⭐        | 王道         |
+|            | 最短路径               | [I Wanna Go Home](https://www.nowcoder.com/practice/0160bab3ce5d4ae0bb99dc605601e971?tpId=61&tqId=29500&tPage=1&ru=/kaoyan/retest/1002&qru=/ta/pku-kaoyan/question-ranking) | ⭐⭐       | 王道         |
+|            | 最短路径               | [最短路径](https://www.nowcoder.com/practice/a29d0b5eb46b4b90bfa22aa98cf5ff17?tpId=62&tqId=29464&tPage=1&rp=1&ru=/ta/sju-kaoyan) | ⭐⭐       | 王道         |
+|            | 拓扑排序               | [Legal or Not](https://acm.hdu.edu.cn/showproblem.php?pid=3342) | ⭐⭐       | 王道         |
+|            | 关键路径               | [p3](http://www.noobdream.com/DreamJudge/Issue/page/1536/)   | ⭐⭐       | 王道         |
+| 动态规划   | 递推求解               |                                                              |          |              |
+|            | 最大连续子序列和       | [最大子矩阵](https://www.nowcoder.com/practice/a5a0b05f0505406ca837a3a76a5419b3?tpId=61&tqId=29535&tPage=2&ru=/kaoyan/retest/1002&qru=/ta/pku-kaoyan/question-ranking) | ⭐⭐       | 王道         |
+|            | 最长递增子序列         | [最长递增子序列](https://www.nowcoder.com/questionTerminal/30fb9b3cab9742ecae9acda1c75bf927) | ⭐⭐       | 保研机试真题 |
+|            | 最长公共子序列         | [Coincidence](https://www.nowcoder.com/practice/f38fc44b43cf44eaa1de407430b85e69?tpId=62&tqId=29471&tPage=2&ru=/kaoyan/retest/2002&qru=/ta/sju-kaoyan/question-ranking) | ⭐        | 王道         |
+|            | 背包问题               | [最小邮票数](https://www.nowcoder.com/practice/83800ae3292b4256b7349ded5f178dd1?tpId=60&tqId=29486&tPage=1&ru=/kaoyan/retest/1001&qru=/ta/tsing-kaoyan/question-ranking) | ⭐⭐       | 王道         |
+|            | 背包问题               | [Piggy-Bank](https://acm.hdu.edu.cn/showproblem.php?pid=1114) | ⭐        | 王道         |
+|            | 背包问题               | [珍惜现在，感恩生活](https://acm.hdu.edu.cn/showproblem.php?pid=2191) | ⭐        | 王道         |
+|            | 其他规划问题           | [Monkey Banana Problem](https://lightoj.com/problem/monkey-banana-problem) | ⭐⭐       | 王道         |
+|            | 其他规划问题           | [放苹果](https://www.nowcoder.com/practice/4f0c1e21010e4d849bde5297148e81d9?tpId=61&tqId=29513&tPage=1&ru=/kaoyan/retest/1002&qru=/ta/pku-kaoyan/question-ranking) | ⭐⭐       | 王道         |
+|            | 其他规划问题           | [整数拆分](https://www.nowcoder.com/practice/376537f4609a49d296901db5139639ec?tpId=60&tqId=29480&tPage=1&ru=/kaoyan/retest/1001&qru=/ta/tsing-kaoyan/question-ranking) | ⭐⭐       | 王道         |
+| 双指针     | 头尾指针               | [验证回文字符串 Ⅱ](https://leetcode-cn.com/problems/valid-palindrome-ii/) | ⭐        | LC101        |
+|            | 双尾指针               | [合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/) | ⭐        | LC101        |
+|            | 快慢指针               | [环形链表 II](https://leetcode-cn.com/problems/linked-list-cycle-ii/) | ⭐        | LC101        |
+|            | 滑动窗口               | [最小覆盖子串](https://leetcode-cn.com/problems/minimum-window-substring/) | ⭐        | LC101        |
 
 # 1 暴力求解
 
@@ -97,11 +115,16 @@
 
 ## 2.2 查找
 
-| 题目                                                         | 错题次数 | 要点                 |
-| ------------------------------------------------------------ | -------- | -------------------- |
-| [查找](https://www.nowcoder.com/practice/d93db01c2ee44e8a9237d63842aca8aa?tpId=40&tqId=21531&tPage=1&rp=1&ru=/ta/kaoyan&qru=/ta/kaoyan/question-ranking) | ⭐⭐       | 1.二分查找           |
-| [打印极值点下标](https://www.nowcoder.com/practice/7fd72f8ac7964ba3b8baa8735246e1f1?tpId=40&tqId=21385&tPage=1&rp=1&ru=/ta/kaoyan&qru=/ta/kaoyan/question-ranking) | ⭐        | 1.注意边界值（首尾） |
-| [找位置](https://www.nowcoder.com/practice/e3b2cc44aa9b4851bdca89dd79c53150?tpId=40&tqId=21560&tPage=1&rp=1&ru=/ta/kaoyan&qru=/ta/kaoyan/question-ranking) | ⭐⭐       | 1.使用可重复map统计  |
+| 题目                                                         | 错题次数 | 要点                                                         |
+| ------------------------------------------------------------ | -------- | ------------------------------------------------------------ |
+| [查找](https://www.nowcoder.com/practice/d93db01c2ee44e8a9237d63842aca8aa?tpId=40&tqId=21531&tPage=1&rp=1&ru=/ta/kaoyan&qru=/ta/kaoyan/question-ranking) | ⭐⭐       | 1.二分查找                                                   |
+| [打印极值点下标](https://www.nowcoder.com/practice/7fd72f8ac7964ba3b8baa8735246e1f1?tpId=40&tqId=21385&tPage=1&rp=1&ru=/ta/kaoyan&qru=/ta/kaoyan/question-ranking) | ⭐        | 1.注意边界值（首尾）                                         |
+| [找位置](https://www.nowcoder.com/practice/e3b2cc44aa9b4851bdca89dd79c53150?tpId=40&tqId=21560&tPage=1&rp=1&ru=/ta/kaoyan&qru=/ta/kaoyan/question-ranking) | ⭐⭐       | 1.使用可重复map统计                                          |
+| [x 的平方根](https://leetcode-cn.com/problems/sqrtx/)        | ⭐        | 1. 二分查找<br />2. 注意最终取值                             |
+| [搜索旋转排序数组 II](https://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii/) | ⭐        | 1. 旋转数组的二分查找<br />2. 注意无法区分递增区间的情况     |
+| [寻找旋转排序数组中的最小值 II](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/) | ⭐        | 1. 旋转数组的二分查找<br />2. 如果以右边为基准，先判断右边是否为递增区间，左边同理 |
+| [有序数组中的单一元素](https://leetcode-cn.com/problems/single-element-in-a-sorted-array/) | ⭐        | 1. 二分查找<br />2. 注意分情况找边界值的更新                 |
+| [寻找两个正序数组的中位数](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/) | ⭐        | 1. 二分查找，每次排除几乎一半的元素<br />2. 注意特殊情况     |
 
 # 3 字符串
 
@@ -255,6 +278,11 @@
 | 题目                                                         | 错题次数 | 要点                                                         |
 | ------------------------------------------------------------ | -------- | ------------------------------------------------------------ |
 | [代理服务器](https://www.nowcoder.com/practice/1284469ee94a4762848816a42281a9e0?tpId=60&tqId=29476&tPage=1&ru=/kaoyan/retest/1001&qru=/ta/tsing-kaoyan/question-ranking) | ⭐⭐       | 1.同一起点出发法，求每次能达到的最远距离<br />2.每次能达到的最远距离为0时代表无法前进 |
+| [分发糖果](https://leetcode-cn.com/problems/candy/)          | ⭐        | 1. 左右遍历两次<br />2. 从右开始遍历注意比较糖果数           |
+| [种花问题](https://leetcode-cn.com/problems/can-place-flowers/) | ⚪        | 1. 跳格子算法                                                |
+| [买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/) | ⚪        | 1. 贪心可以找规律，连续上涨等价于连续每日交易                |
+| [根据身高重建队列](https://leetcode-cn.com/problems/queue-reconstruction-by-height/) | ⭐        | 1. 按照身高 高 与 排名 前的先插入，依次插入序列              |
+| [非递减数列](https://leetcode-cn.com/problems/non-decreasing-array/) | ⭐        | 1. 注意找数学规律，a>c && b>d不符合要求                      |
 
 ## 6.2 区间贪心
 
@@ -263,6 +291,8 @@
 | [今年暑假不AC](http://acm.hdu.edu.cn/showproblem.php?pid=2037) | ⭐⭐       | 1.每次找到结束时间最早的节目                                 |
 | [Case of Fugitive](http://codeforces.com/problemset/problem/555/B) | ⭐⭐       | 1.用区间去匹配桥，每次尽量找到最匹配桥大小的区间，即在所有满足 minimum <= length <= maximum 的区间中找到maximum最小的区间 |
 | [To Fill or Not to Fill](https://www.nowcoder.com/practice/f7eba38f7cd24c45982831e0f38518f9?tpId=63&tqId=29602&tPage=2&ru=/kaoyan/retest/9001&qru=/ta/zju-kaoyan/question-ranking) | ⭐⭐       | 1.每次求下一站为油价最便宜的一站，没有则在当前站加满，或者除非可以加油至达到终点<br />2.注意两种特殊情况，是否可以达到最近的下一站以及是否可以到达终点，可以设置终点为最后一站统一判断 |
+| [无重叠区间](https://leetcode-cn.com/problems/non-overlapping-intervals/) | ⭐        | 1. 保留区间终点最小的区间                                    |
+| [划分字母区间](https://leetcode-cn.com/problems/partition-labels/) | ⭐        | 1. 找到每个字母最后出现位置，当前片段的终点是当前片段内所有字母最终位置的最大值<br />2. 如果当前下标为终点，则确定一个划分 |
 
 # 7 递归与分治
 
@@ -548,5 +578,44 @@ dp[i] = max{ dp[j], dp[ j-w[i] ] + v[i] }，**为了保证在每次更新中确�
 | [放苹果](https://www.nowcoder.com/practice/4f0c1e21010e4d849bde5297148e81d9?tpId=61&tqId=29513&tPage=1&ru=/kaoyan/retest/1002&qru=/ta/pku-kaoyan/question-ranking) | ⭐⭐       | 1. 动态规划问题，考虑不同的情况所对应不同的转移方程          |
 | [整数拆分](https://www.nowcoder.com/practice/376537f4609a49d296901db5139639ec?tpId=60&tqId=29480&tPage=1&ru=/kaoyan/retest/1001&qru=/ta/tsing-kaoyan/question-ranking) | ⭐⭐       | 1. 动态规划问题，一定要注意找规律，找到当前状态与之前状态的数学关系，在动态规划问题里，之后的状态一定依赖于之前的状态 |
 
+# 11. 双指针
 
+- 双指钍主要用于遍历数组，两个指针指向不同的元素，从而协同完成任务。也可以延伸到多个数组的多个指针。
+- 若两个指针指向同一数组，遍历方向相同且不会相交，则也称为**滑动窗口(两个指针包围的区域即为当前的窗口)，**经常用于区间搜索。
+- 若两个指针指向同一数组，但是遍历方向相反，则可以用来进行**搜索**，待搜索的数组往往是排好序的。
 
+## 11.1 头尾指针
+
+| 题目                                                         | 错题次数 | 要点                            |
+| ------------------------------------------------------------ | -------- | ------------------------------- |
+| [验证回文字符串 Ⅱ](https://leetcode-cn.com/problems/valid-palindrome-ii/) | ⭐        | 1. 注意利用递归实现一次深度搜索 |
+
+## 11.2 同向双指针
+
+遍历两个字符串，判断是否当前字符相等，若相等则一起后移；若不相等，则字符串s1后移，直到遍历结束，然后判断字典字符串s2是否遍历到了最后。
+
+| 题目                                                         | 错题次数 | 要点                                                         |
+| ------------------------------------------------------------ | -------- | ------------------------------------------------------------ |
+| [合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/) | ⭐        | 1. 使用三个尾指针，比较两个数组的最后元素后放置到新数组的尾部 |
+
+## 11.3 快慢指针
+
+- **链表找环路的问题**
+
+有一个通用的解法——快慢指针（Floyd 判圈法）。给定两个指针，分别命名为 slow 和 fast，起始位置在链表的开头。每次 fast 前进两步，slow 前进一步。如果 fast可以走到尽头，那么说明没有环路；如果 fast 可以无限走下去，那么说明一定有环路，且一定存在一个时刻 slow 和 fast 相遇。当 slow 和 fast 第一次相遇时，我们将 fast 重新移动到链表开头，并让 slow 和 fast 每次都前进一步。当 slow 和 fast 第二次相遇时，相遇的节点即为环路的开始点。（[原理解析](https://leetcode-cn.com/problems/linked-list-cycle-ii/solution/linked-list-cycle-ii-kuai-man-zhi-zhen-shuang-zhi-/)）
+
+| 题目                                                         | 错题次数 | 要点        |
+| ------------------------------------------------------------ | -------- | ----------- |
+| [环形链表 II](https://leetcode-cn.com/problems/linked-list-cycle-ii/) | ⭐        | 1. 快慢指针 |
+
+## 11.4 滑动窗口
+
+两个指针 *l* 和 *r* 都是从最左端向最右端移动，且 *l* 的位置一定在*r* 的左边或重合。
+
+| 题目                                                         | 错题次数 | 要点                                                       |
+| ------------------------------------------------------------ | -------- | ---------------------------------------------------------- |
+| [最小覆盖子串](https://leetcode-cn.com/problems/minimum-window-substring/) | ⭐        | 1. 滑动窗口<br />2. 每次找到可以覆盖的子串后尝试移动左端点 |
+
+# 美团前端笔试题
+
+https://www.nowcoder.com/discuss/715645
